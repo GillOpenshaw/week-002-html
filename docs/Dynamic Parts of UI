@@ -1,0 +1,5 @@
+Task Input Button - may change colour / highlight to indicate text can be added. 
+Add Button - Take input, store and add to task table below.  May change colour for 2 seconds to indicate when the button has been used
+Things to do: 2 - tally will change as more tasks are added. May flash or get bigger for 2 seconds to indicate number has changed.
+Done / Delete Buttons - may change colour / highlight to indicate they can be actioned. May change colour when actioned. May flash or get bigger to indicate their status has changed.
+Delete Button - may change to 'Undo' after actioned in case a mistake has been made and the user wishes the tasks to be reinstated.
