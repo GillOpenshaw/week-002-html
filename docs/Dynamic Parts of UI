@@ -1,5 +1,38 @@
-Task Input Button - may change colour / highlight to indicate text can be added. 
-Add Button - Take input, store and add to task table below.  May change colour for 2 seconds to indicate when the button has been used
-Things to do: 2 - tally will change as more tasks are added. May flash or get bigger for 2 seconds to indicate number has changed.
-Done / Delete Buttons - may change colour / highlight to indicate they can be actioned. May change colour when actioned. May flash or get bigger to indicate their status has changed.
-Delete Button - may change to 'Undo' after actioned in case a mistake has been made and the user wishes the tasks to be reinstated.
+Issue:
+Every August London theatres offer a number of free and discounted child theatre tickets for every
+adult ticket purchased in a scheme called "KidsWeek" www.kidsweek.co.uk. Over the past couple years a
+large Facebook community has grown called "Families Who ❤️Theatre", in addition to the "KidsWeek" 
+Facebook page, in which people ask questions and provide answers about theatre tickets & shows, where
+to stay, and other non-theatre family activities to do while in London.
+The problem is that as new people join the group, or people don't follow every post, then the same 
+questions get asked over and over again.
+
+Solution:
+I would like to develop a website that allows people to access relevant information and an app that
+creates a ToDo London Trip Planner that provides the following:
+    1. Theatre tickets - often people want to buy additional theatre tickets onto top of their KidsWeek
+    purchases
+    2. Travel information to London - train, bus, flights
+    3. Travel information around London - oyster, travelcards, options for best value
+    4. Accommodation - cheap & affordable family accommodation
+    5. Food and drink - restaurants, take outs, ice cream parlours
+    6. Shopping - high street, markets
+    7. Other family attractions & activities - options available & discount ticket info
+The website would act as the main source of information, while the app would allow a tailored trip to
+be created for an individual family's needs. The itinerary for the trip could be organised by date, or
+by section - travel, accommodation, theatre tickets, food & drink, shopping, activities.
+
+Dynamic Elements:
+*Log ins to create unique users to they can be offered a personalised welcome, offers based on history,
+paid ad campaign coupons. 
+*Subscribe for email newsletter 
+*Logic branching - offer a survey / questionnaire to tailor a more personalised path through the website
+*Geolocation - show travel to London offers
+*Geolocation - shows in app offers whilst in London on the trip
+*Show relevant content & ads depending upon history
+*Sidebar - discount coupons depending upon pages visited, click selections
+*Deliver a popup message depending upon particular scrolls or clicks
+*Show the weather for relevant days
+*Countdown until trip departure day
+*Link with Alexa
+*Allow a theme to be selected
