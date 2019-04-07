@@ -1,54 +1,68 @@
-<html>
+<!DOCTYPE html>
+<html lang=en>
 
 <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>
-        My ToDo Application
+        "Our London Jaunt Planner"
     </title>
+
 </head>
 
 <body>
-    <h1>
-        My ToDo Application
-    </h1>
-    <table>
-        <tr>
-            <td>
-                <p>
-                    Enter a task:
-                </p>
-            </td>
-            <td>
-                <input type=text name="taskInputBox">
+    <main>
+        <section>
+            <h1>Our London Jaunt Planner</h1>
+            <table>
+                <td><img src="london-montage.jpg" alt="London Montage" height="200" width="400
+                "></td>
+            </table>
+            <!-- Input a task -->
+            <table>
+                <tr>
+                    <td>Activity:</td>
+                    <td><input type=text name="taskInputBox"></td>
+                </tr>
+                <tr>
+                    <td>Date/Time</td>
+                    <td><input type=text name="dateTime"></td>
+                    <td><input type="submit" value="Add"></td>
+                </tr>
+            </table>
 
-            </td>
-            <td><input type="submit" value="Add">
-            </td>
-        </tr>
-    </table>
+        </section>
 
-    </table>
-    <p>Things to do: 2</p>
-    <table>
-        <tr>
-            <td>A first task</td>
-            <td>
-                <input type=submit value="Done">
-            </td>
-            <td>
-                <input type=submit value="Delete">
-            </td>
-        </tr>
-        <tr>
-            <td>A second task</td>
-            <td>
-                <input type=submit value="Done">
-            </td>
-            <td>
-                <input type=submit value="Delete">
-            </td>
-        </tr>
-
-    </table>
+        <section>
+            <!-- Organising the ToDo List  -->
+            <h2>Things to do: 4</h2>
+            <table>
+                <tr>
+                    <td>Train Tickets</td>
+                    <td>Wednesday 8.30am</td>
+                    <td><input type=submit value="Book"></td>
+                    <td><input type=submit value="Delete"></td>
+                </tr>
+                <tr>
+                    <td>Hotel</td>
+                    <td>Wednesday 3pm</td>
+                    <td><input type=submit value="Book"></td>
+                    <td><input type=submit value="Delete"></td>
+                </tr>
+                <tr>
+                    <td>Theatre Tickets</td>
+                    <td>Wednesday 7.30pm</td>
+                    <td><input type=submit value="Book"></td>
+                    <td><input type=submit value="Delete"></td>
+                </tr>
+                <tr>
+                    <td>Sky Garden</td>
+                    <td>Thursday 10am</td>
+                    <td><input type=submit value="Book"></td>
+                    <td><input type=submit value="Delete"></td>
+                </tr>
+            </table>
+        </section>
+    </main>
 </body>
 
 </html>

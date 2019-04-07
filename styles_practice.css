@@ -1,0 +1,39 @@
+
+/* style all headings */
+body {
+    color: black;
+    font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+    font-family: Arial;
+}
+
+#heading {
+    color: blue;
+}
+
+.task-row {
+    color: orange;
+}
+
+#middle-row {
+    color: red;
+    text-decoration: line-through;
+}
+
+#div1 {
+    border: 2px solid red;
+    width: 60%;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+
+#div2 {
+    border: 2px solid green;
+    margin: 10px 0 0 0;
+}
+
+.my-span {
+border: 2px solid gold;
+}
