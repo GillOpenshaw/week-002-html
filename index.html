@@ -51,23 +51,22 @@
             <p>
                 <h4 class="red">Enter your ToDo Activity:</h4>
             </p>
-            <table>
-                <tr>
-                    <td>Activity:</td>
-                    <td><input type=text name="taskInputBox"></td>
-                </tr>
-                <tr>
-                    <td>Date/Time:</td>
-                    <td><input type=text name="dateTime"></td>
+            <form>
+                    <label for="Activity">Activity</label>
+                    <input type="text" name="Activity" id="Activity" size="75">
+                    <br>
+                    <br>
+                    <label for="Date/Time">Date/Time</label>
+                    <input type="text" name="dateTime" id="dateTime" size="65">
+               
                     <td><input type="submit" value="Add"></td>
-                </tr>
-            </table>
+                    </form>
         </section>
 
         <section>
             <!-- Organising the ToDo List  -->
             <p>
-                <h4 class="red">Things to do: 4</h4>
+                <h3 class="blue">Things to do: 4</h3>
             </p>
             <table>
                 <th>ToDo Activity</th>
