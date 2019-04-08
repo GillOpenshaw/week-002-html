@@ -6,33 +6,38 @@
     <title>
         "My London Travel Wizard"
     </title>
-
 </head>
 
 <body>
     <main>
         <!-- Name, Logo and Montage Image-->
-        
         <section>
-            <table>
-                <tr>
-                    <td>
-            <p style="float: left;"> My London Travel Wizard <img src="magic wand.svg" alt="Wizard Spell" height=40
-                    width=30>
-                    </td>
-                    </tr>
-                    <tr>
-                    <td>
-                <img src="london-montage.jpg" alt="London Montage" height=200 width=400>
-            </td>
-            </tr>
             <p>
-            </table>
+                <h1>My <img src="london-flag.png" alt="London word" style="vertical-align: text-bottom" height=50
+                        width=150> Travel Wizard <img src="magic wand.svg" alt="Wizard Spell" height=40 width=30>
+                </h1>
+            </p>
+            <p>Use the ideas and itinerary to plan your next trip to the capital</p>
+            <p> <img src="london_skyline_Thames.jpeg" alt="London Skyline from Thames" height=100 width=150>
+                <img src="Harry_Potter.jpg" alt="London Harry Harry_Potter" height=100 width=150>
+                <img src="Buckingham_Palace.jpg" alt="Buckingham Palace" height=100 width=150>
+            </p>
         </section>
-        
 
         <section>
             <!-- Obtaining data input for task and date -->
+            <p>Enter your travel and hotel details in the boxes below:</p>
+            <table>
+                <tr>
+                    <th>Travel</th>
+                    <td><input type=text id="travelDetails"></td>
+                </tr>
+                <tr>
+                    <th>Hotel</th>
+                    <td><input type=text id="hotelDetails"></td>
+                </tr>
+            </table>
+
             <p>Enter your ToDo Activity:</p>
             <table>
                 <tr>
@@ -45,37 +50,44 @@
                     <td><input type="submit" value="Add"></td>
                 </tr>
             </table>
-
         </section>
-
 
         <section>
             <!-- Organising the ToDo List  -->
-            <h2>Things to do: 4</h2>
+            <p>Things to do: 4</p>
             <table>
+                <th>ToDo Activity</th>
+                <th>Date / Time</th>
+                <th>Booked?</th>
+                <th>Done?</th>
+                <th>Remove</th>
                 <tr>
-                    <td>Train Tickets</td>
-                    <td>Wednesday 8.30am</td>
+                    <td>FreeTours Walking Tour</td>
+                    <td>Wednesday 10am</td>
                     <td><input type=submit value="Book"></td>
-                    <td><input type=submit value="Delete"></td>
+                    <td><input type=submit value="Book"></td>
+                    <td><input type=submit value="Remove"></td>
                 </tr>
                 <tr>
-                    <td>Hotel</td>
+                    <td>Buckingham Palace</td>
                     <td>Wednesday 3pm</td>
                     <td><input type=submit value="Book"></td>
-                    <td><input type=submit value="Delete"></td>
+                    <td><input type=submit value="Book"></td>
+                    <td><input type=submit value="Remove"></td>
                 </tr>
                 <tr>
                     <td>Theatre Tickets</td>
                     <td>Wednesday 7.30pm</td>
                     <td><input type=submit value="Book"></td>
-                    <td><input type=submit value="Delete"></td>
+                    <td><input type=submit value="Book"></td>
+                    <td><input type=submit value="Remove"></td>
                 </tr>
                 <tr>
                     <td>Sky Garden</td>
                     <td>Thursday 10am</td>
                     <td><input type=submit value="Book"></td>
-                    <td><input type=submit value="Delete"></td>
+                    <td><input type=submit value="Book"></td>
+                    <td><input type=submit value="Remove"></td>
                 </tr>
             </table>
         </section>
