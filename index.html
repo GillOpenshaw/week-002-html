@@ -10,8 +10,8 @@
 
 <body>
     <main>
-        <!-- Name, Logo and London Images-->
         <section>
+            <!-- Name, Logo and London Images -->
             <p>
                 <h1><img src="wizard-hat.png" alt="wizard hat" style="vertical-align: text-bottom" height=40 width=50>
                     My <img src="london-flag.png" alt="London word" style="vertical-align: bottom" height=40 width=150>
@@ -23,14 +23,15 @@
             <p>
                 <h3 class="blue bold">Use these ideas and itinerary to plan your next trip to the capital</h3>
             </p>
-            <p> <img src="london_skyline_Thames.jpeg" alt="London Skyline from Thames" height=100 width=170>
+            <p>
+                <img src="london_skyline_Thames.jpeg" alt="London Skyline from Thames" height=100 width=170>
                 <img src="Harry_Potter.jpg" alt="London Harry Harry_Potter" height=100 width=170>
                 <img src="Buckingham_Palace.jpg" alt="Buckingham Palace" height=100 width=170>
             </p>
         </section>
 
         <section>
-            <!-- Obtaining data input for task and date -->
+            <!-- Obtaining data input for travel and accommodation -->
             <p>
                 <h3 class="blue bold">Travel and Accommodation</h3>
             </p>
@@ -45,6 +46,8 @@
                 <label for="Hotel">Hotel</label>
                 <input type="text" name="hotelDetails" id="Hotel" size="78">
             </form>
+
+            <!-- Obtaining data input for task and date that can build trip's itinerary -->
             <p>
                 <h3 class="blue bold">Itinerary</h3>
             </p>
@@ -52,15 +55,14 @@
                 <h4 class="red">Enter your ToDo Activity:</h4>
             </p>
             <form>
-                    <label for="Activity">Activity</label>
-                    <input type="text" name="Activity" id="Activity" size="75">
-                    <br>
-                    <br>
-                    <label for="Date/Time">Date/Time</label>
-                    <input type="text" name="dateTime" id="dateTime" size="65">
-               
-                    <td><input type="submit" value="Add"></td>
-                    </form>
+                <label for="Activity">Activity</label>
+                <input type="text" name="Activity" id="Activity" size="75">
+                <br>
+                <br>
+                <label for="Date/Time">Date/Time</label>
+                <input type="text" name="dateTime" id="dateTime" size="65">
+                <td><input type="submit" value="Add"></td>
+            </form>
         </section>
 
         <section>
@@ -68,7 +70,7 @@
             <p>
                 <h3 class="blue">Things to do: 4</h3>
             </p>
-            <table>
+            <table class="fix">
                 <th>ToDo Activity</th>
                 <th>Date / Time</th>
                 <th>Booked?</th>
@@ -78,28 +80,28 @@
                     <td>FreeTours Walking Tour</td>
                     <td>Wednesday 10am</td>
                     <td><input type=submit value="Book"></td>
-                    <td><input type=submit value="Book"></td>
+                    <td><input type=submit value="ToDo"></td>
                     <td><input type=submit value="Remove"></td>
                 </tr>
                 <tr>
                     <td>Buckingham Palace</td>
                     <td>Wednesday 3pm</td>
                     <td><input type=submit value="Book"></td>
-                    <td><input type=submit value="Book"></td>
+                    <td><input type=submit value="ToDo"></td>
                     <td><input type=submit value="Remove"></td>
                 </tr>
                 <tr>
                     <td>Theatre Tickets</td>
                     <td>Wednesday 7.30pm</td>
                     <td><input type=submit value="Book"></td>
-                    <td><input type=submit value="Book"></td>
+                    <td><input type=submit value="ToDo"></td>
                     <td><input type=submit value="Remove"></td>
                 </tr>
                 <tr>
                     <td>Sky Garden</td>
                     <td>Thursday 10am</td>
                     <td><input type=submit value="Book"></td>
-                    <td><input type=submit value="Book"></td>
+                    <td><input type=submit value="ToDo"></td>
                     <td><input type=submit value="Remove"></td>
                 </tr>
             </table>
