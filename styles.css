@@ -12,3 +12,11 @@ h1 {
 .bold {
     font-weight: bold;
 }
+
+.red {
+    color: red;
+}
+
+label {
+    font-weight:bold;
+}
