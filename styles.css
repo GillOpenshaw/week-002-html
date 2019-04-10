@@ -1,11 +1,4 @@
-/* Page heading */
-
-h1 {
-    color: purple;
-    font-family: papyrus;
-    font-size: 175%;
-    font-weight: bold;
-}
+/* Universal Styles */
 
 .blue {
     color: #000099;
@@ -23,7 +16,16 @@ label {
     font-weight: bold;
 }
 
-/* Itinerary table */
+/* Page Heading */
+
+h1 {
+    color: purple;
+    font-family: papyrus;
+    font-size: 175%;
+    font-weight: bold;
+}
+
+/* Itinerary Table */
 
 table {
     width: 500px;
@@ -32,7 +34,7 @@ table {
     background: #F0F8FF
 }
 
-/* Itinerary borders */
+/* Itinerary Borders */
 
 td {
     border: 1px solid black;
