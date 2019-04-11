@@ -1,3 +1,5 @@
+
+
 /* Universal Styles */
 
 .blue {
@@ -39,4 +41,11 @@ table {
 td {
     border: 1px solid black;
     background: white
+}
+
+/* Media Queries*/
+@Media only screen and (max-width: 600px) {
+    h1 {
+        color: yellow;
+    }
 }
