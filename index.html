@@ -70,132 +70,170 @@
 
                 <!-- Tips Section -->
 
-                <div class="text-centre col-2">
+                <div class="text-centre col-md-2 col-sm-12">
                     <!-- Tips section col -->
-                    <p>
+
+                    <div class="row">
+                        <!-- Tops Tips Title-->
                         <h3 class="blue bold">Top Tips!</h3>
+                    </div> <!-- End Tops Tips Title-->
+
+                    <div class="row">
+                        <!-- Top tip no 1 KidsWeek -->
                         <h6>Look out for Kids Week theatre tickets from June 2019. Free or half price child tickets with
                             every adult ticket purchased, valid for selected shows throughout August</h6>
                         <img src="kidsweek.jpg" alt="Kids Week theatre" height=80 width=120>
-                    </p>
-                    <p>
+                    </div> <!-- End Top tip no 1 KidsWeek -->
+
+                    <div class="row">
+                        <!-- Top tip no 2 Trains-->
                         <h6>Cheaper train tickets go on sale approx 12 weeks before travel. A railcard e.g. a Family
                             Railcard can be used for discounted entry to participating attractions and also at selected
                             restaurants, plus it gives discounted One Day Travel Card fares on London transport.
                             <img src="virgin train.jpg" alt="Virgin train" height=80 width=120>
                         </h6>
-                    </p>
+                    </div> <!-- End Top tip no 2 Trains -->
+
                 </div> <!-- End Tips section col -->
 
-                <!-- Obtaining data input for travel and accommodation -->
-
-                <div class="text-center col-6">
+                <div class="text-center col-md-6 col-sm-12">
                     <!-- Planning Section col -->
 
-                    <div class="row">
-                        <!-- Travel & Accommodation Section row -->
-                        <table class="table table-sm">
-                            <thead>
-                                <tr>
-                                    <th colspan="2">Enter your travel and accommodation details</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Travel</td>
-                                    <td><button type="button" class="btn btn-primary btn-sm">Book</button></td>
-                                </tr>
-                                <tr>
-                                    <td>Accommdation</td>
-                                    <td><button type="button" class="btn btn-primary btn-sm">Book</button></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <!-- End Travel & Accommodation Section row -->
+                    <div class="row-auto">
+                        <!-- Itinerary builder row -->
 
-                    <!-- Obtaining data input for task and date that can build trip's itinerary -->
+                        <div class="d-inline p-2 bg-primary text-white">Build your London trip itinerary:</div>
+                        <div class="row">
+                            <!-- Itinerary heading col -->
 
-                    <div class="row">
-                        <!-- Itinerary days row -->
-                        <table class="table table-sm">
-                            <thead>
-                                <tr>
-                                    <th colspan="2">Build your London trip itinerary. Enter your activity below:</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Date</td>
-                                    <td><input class="btn btn-primary" type="button" value="Input"></td>
-                                </tr>
-                                <tr>
-                                    <td>Time</td>
-                                    <td><input class="btn btn-primary" type="button" value="Input"></td>
-                                </tr>
-                                <tr>
-                                    <td>Activity</td>
-                                    <td><input class="btn btn-primary" type="button" value="Input"></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div> <!-- End Itinerary days row -->
+                            <h6><br>Enter the details for your activities below<br>to add
+                                them to your ToDo Planner</h6>
+                        </div> <!-- End Itinerary heading col -->
 
-                    <div class="row">
-                        <!-- ToDo Table row -->
+                        <div class="row">
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="inputDate4">Date</label>
+                                        <input type="date" class="form-control" id="inputDate" placeholder="Date">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputTime">Time</label>
+                                        <input type="date" class="form-control" id="inputTime" placeholder="Time">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputActivity">Activity</label>
+                                    <input type="text" class="form-control" id="inputActivity" placeholder="Activity">
+                                    <br>
+                                    <button type="submit" class="btn btn-primary">Add</button>
+                                </div>
+                            </form>
+                        </div>
 
-                        <!-- ToDo List Table row -->
-                        <table class="table table-sm">
-                            <thead>
-                                <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">Date</th>
-                                    <th scope="col">Time</th>
-                                    <th scope="col">Activity</th>
-                                    <th scope="col">Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">1</th>
-                                    <td>Wednesday</td>
-                                    <td>2pm</td>
-                                    <td>Buckingham Palace</td>
-                                    <td><input class="btn btn-primary" type="submit" value="Book"></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2</th>
-                                    <td>Wednesday</td>
-                                    <td>7.30pm</td>
-                                    <td>Everbody Loves Jamie</td>
-                                    <td><input class="btn btn-primary" type="submit" value="Book"></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">3</th>
-                                    <td>Thursday</td>
-                                    <td>10am</td>
-                                    <td>Walking Tour</td>
-                                    <td><input class="btn btn-primary" type="submit" value="Book"></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div> <!-- End ToDo Table row -->
+                        <div class="row">
+                            <!-- ToDo Table row -->
+
+                            <!-- ToDo List Table -->
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Time</th>
+                                        <th scope="col">Activity</th>
+                                        <th scope="col">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Wednesday</td>
+                                        <td>2pm</td>
+                                        <td>Buckingham Palace</td>
+                                        <td><input class="btn btn-primary" type="submit" value="Book"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Wednesday</td>
+                                        <td>7.30pm</td>
+                                        <td>Everbody Loves Jamie</td>
+                                        <td><input class="btn btn-primary" type="submit" value="Book"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Thursday</td>
+                                        <td>10am</td>
+                                        <td>Walking Tour</td>
+                                        <td><input class="btn btn-primary" type="submit" value="Book"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Thursday</td>
+                                        <td>1pm</td>
+                                        <td>Sky Garden</td>
+                                        <td><input class="btn btn-primary" type="submit" value="Book"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div> <!-- End ToDo Table row -->
+
+                    </div> <!-- End Itinerary builder row -->
 
                 </div> <!-- End Planning Section col -->
 
-                <div class="text-center col-4">
-                    <!-- Ideas Section-->
+                <div class="text-center col-md-4 col-sm-12">
+                    <!-- Things To Do Section-->
 
                     <div class="row">
-                        <!-- Ideas section row -->
+                        <!-- Things To Do title row -->
                         <p>
                             <h3 class="blue bold">Things to do</h3>
                         </p>
-                    </div> <!-- End Ideas section row -->
+                    </div> <!-- End Things To Do title row -->
 
-                </div> <!-- End Ideas Section-->
+                    <div class="row">
+                        <!-- Theatre Shows row-->
 
-            </div> <!-- End Main 3 site areas, Tips, Itinerary, Ideas -->
+                        <div class="col">
+                            <!-- Kids Week Shows col -->
+                            <h6>Look out for a huge selection of Kids Week theatre tickets from mid June</h6>
+                            <img src="lion king.jpg" alt="Lion King actor" height=80 width=120>
+                        </div> <!-- Kids Week Shows col  -->
+
+                        <div class="col">
+                            <!-- What's on at the theatre col -->
+                            <h6>Download the TodayTix app or sign up via email for discounted theatre tickets</h6>
+                            <img src="Today Tix.png" alt="Today tix app" height=80 width=120>
+                        </div> <!-- End What's on at the theatre col -->
+
+                    </div> <!-- End Theatre Shows-->
+
+                    <div class="row">
+                        <!-- Attractions-->
+
+                        <div class="col">
+                            <!-- Walking Tours col -->
+                            <br>
+                            <h6>Landmarks Tours, Harry Potter Tour, Art Tour - find out about London in a fun and
+                                exciting way with Strawberry Tours</h6>
+                            <img src="Strawberry Tours.png" alt="Strawberry Tour logo" height=80 width=120>
+                        </div> <!-- Walking Tours col  -->
+
+                        <div class="col">
+                            <!-- What's on at the theatre col -->
+                            <br>
+                            <h6>See the sights of London from an amazing viewpoint at the Sky Garden. Enjoy a
+                                drink with the view.</h6>
+                            <img src="Sky Garden.jpg" alt="Sky Garden View" height=80 width=120>
+                        </div> <!-- End What's on at the theatre col -->
+
+                    </div> <!-- End Theatre Shows-->
+
+
+                </div> <!-- End Things To Do Section-->
+
+            </div> <!-- End Main 3 site areas, Tips, Itinerary, Things To Do -->
 
         </div> <!-- End Container div -->
     </main>
